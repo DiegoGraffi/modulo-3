@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+  <body>
+    <header><%- include('./partials/header.ejs') %></header>
+    <div class="content">
+      <div class="img-container">
+        <img src="./Images/banner.png" class="background-img" />
+      </div>
+
+      <div class="section-container">
+        <section class="login-container">
+          <h3 class="login-title">Iniciar Sesión</h3>
+          <form class="login-form" action="/login" method="POST">
+            <div class="input-container">
+              <label for="email" class="login-label">Email</label>
+              <input
+                id="email"
+                class="login-input"
+                type="email"
+                required
+                placeholder="Ingrese su email"
+                name="email"
+              />
+            </div>
+
+            <div class="input-container">
+              <label for="password" class="login-label">Contraseña</label>
+              <input
+                id="password"
+                class="login-input"
+                type="password"
+                placeholder="Ingrese su contraseña"
+                required
+                name="password"
+              />
+            </div>
+
+            <button class="login-button" type="submit">Iniciar Sesion</button>
+
+            <div class="recoverPassword">Olvide mi contraseña</div>
+          </form>
+        </section>
+        <div class="image-container-desktop">
+          <img src="./Images/banner.png" class="background-img-desktop" />
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer"><%- include('./partials/footer.ejs') %></footer>
+  </body>
+</html>

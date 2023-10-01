@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/header.css" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="/Images/Logo.svg" alt="logo" class="nav-logo" />
+        <img src="./Images/Burger Menu.svg" class="nav-menuMobile" />
+        <ul class="nav-items">
+          <a href="/" class="nav-item">Inicio</a>
+          <a href="/#nosotros" class="nav-item">Nosotros</a>
+          <a href="/#categorias" class="nav-item">Categorias</a>
+          <a href="/cart" class="nav-item">Carrito</a>
+        </ul>
+        <div class="nav-buttons">
+          <% if (locals.user) { %>
+          <div>
+            <h2 class="navbar-user">
+              <%= locals.user.name + ' ' + locals.user.lastName %>
+            </h2>
+            <p class="">Cerrar Sesión</p>
+          </div>
+          <% } else { %>
+          <a href="/login" class="nav-button">
+            <div>Iniciar Sesion</div>
+          </a>
+          <a href="/register" class="nav-button">
+            <div>Registrarse</div>
+          </a>
+          <% } %>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>

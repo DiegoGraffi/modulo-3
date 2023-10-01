@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/detailProduct.css" />
+    <title>Nomada - Producto</title>
+  </head>
+  <body>
+    <header><%- include('./partials/header.ejs') %></header>
+
+    <section>
+      <div class="">
+        <div class="productDetail-info">
+          <p class="product-detail-category">cascos</p>
+          <p class="product-detail-name">Casco LS2 Valiant FF399 Solid</p>
+          <p class="product-detail-price">$ 244.999</p>
+        </div>
+        <div class="product-detail-photos">
+          <div class="principal-photo">
+            <div class="img-container">
+              <img
+                src="./Images/product-principal-edit.png"
+                alt="foto producto principal"
+                class="main-photo"
+              />
+            </div>
+          </div>
+          <div class="product-photos">
+            <img
+              src="./Images/product01.png"
+              alt="foto producto"
+              class="product-mini-photo"
+            />
+            <img
+              src="./Images/product02.png"
+              alt="foto producto"
+              class="product-mini-photo"
+            />
+            <img
+              src="./Images/product03.png"
+              alt="foto producto"
+              class="product-mini-photo"
+            />
+            <img
+              src="./Images/product04.png"
+              alt="foto producto"
+              class="product-mini-photo"
+            />
+            <img
+              src="./Images/product05.png"
+              alt="foto producto"
+              class="product-mini-photo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="product-detail-productInfo">
+        <div class="productDetail-infoDesktop">
+          <p class="product-detail-category">cascos</p>
+          <p class="product-detail-name">Casco LS2 Valiant FF399 Solid</p>
+          <p class="product-detail-price">$ 244.999</p>
+        </div>
+        <div class="product-inputs">
+          <div class="product-detail-variables">
+            <div class="product-detail-input">
+              <label class="product-detail-inputName">Color</label>
+              <select class="product-detail-select">
+                <option value="negro-mate" class="product-detail-option">
+                  Negro Mate
+                </option>
+                <option value="negro-brillante" class="product-detail-option">
+                  Negro Brillante
+                </option>
+                <option value="gris" class="product-detail-option">Gris</option>
+                <option value="Rojo" class="product-detail-option">Rojo</option>
+              </select>
+            </div>
+
+            <div class="product-detail-input">
+              <label class="product-detail-inputName">Talle</label>
+              <select class="product-detail-select">
+                <option value="s" class="product-detail-option">S</option>
+                <option value="m" class="product-detail-option">M</option>
+                <option value="l" class="product-detail-option">L</option>
+                <option value="xl" class="product-detail-option">XL</option>
+                <option value="xxl" class="product-detail-option">XXL</option>
+              </select>
+            </div>
+
+            <div class="product-detail-input">
+              <label class="product-detail-inputName">Cantidad</label>
+              <select class="product-detail-select">
+                <option value="1" class="product-detail-option">01</option>
+                <option value="2" class="product-detail-option">02</option>
+                <option value="3" class="product-detail-option">03</option>
+                <option value="4" class="product-detail-option">04</option>
+                <option value="5" class="product-detail-option">05</option>
+                <option value="6" class="product-detail-option">06</option>
+                <option value="7" class="product-detail-option">07</option>
+                <option value="8" class="product-detail-option">08</option>
+                <option value="9" class="product-detail-option">09</option>
+                <option value="10" class="product-detail-option">10</option>
+              </select>
+            </div>
+          </div>
+          <div class="product-detail-buttons">
+            <button class="product-detail-button favorito">
+              <p class="product-detail-buttonText">Anadir a Favoritos</p>
+            </button>
+
+            <button class="product-detail-button carrito">
+              <img
+                src="./Images/shoppingcart.svg"
+                class="product-detail-buttonIcon"
+              />
+              <p class="product-detail-buttonText">Agregar al carrito</p>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-detail-description">
+        <h3 class="section-title">Descripcion</h3>
+        <p class="section-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque
+          autem dolor vero quibusdam aliquam consequatur iure. Nam eius nemo
+          ipsam doloribus corporis nostrum impedit praesentium, doloremque velit
+          possimus dicta nesciunt molestias dignissimos voluptatibus odit
+          quisquam ab accusamus sunt quia incidunt dolor laborum! Suscipit ipsam
+          officia fugiat magnam eos quae voluptates dolore ab explicabo ipsa
+          repudiandae eius nihil quis cumque cum dolorem, laudantium
+          perferendis. Esse dolorem explicabo, quaerat tenetur recusandae magni
+          exercitationem! Possimus
+        </p>
+
+        <p class="section-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione,
+          error numquam, eligendi sapiente sed aliquid, sint ipsam iste quidem
+          esse eius dolor neque eos impedit repudiandae quis. Deleniti.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer"><%- include('./partials/footer.ejs') %></footer>
+  </body>
+</html>

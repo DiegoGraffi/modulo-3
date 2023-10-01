@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/cart.css" />
+    <title>Nomada - Carrito</title>
+  </head>
+  <body>
+    <header><%- include('./partials/header.ejs') %></header>
+
+    <div class="cart">
+      <section class="cart-container">
+        <div class="items-container">
+          <div class="heroInfo-cart">
+            <h3 class="cart-title">Carrito</h3>
+            <p class="cart-text">5 Items</p>
+          </div>
+
+          <div class="articles-container">
+            <article class="product-item-cart">
+              <img
+                src="./Images//mobileProduct-cart4.png"
+                alt="foto producto"
+                class="product-item-img"
+              />
+              <div class="product-item-info-container">
+                <div class="product-item-info">
+                  <div class="product-item-text">
+                    <p class="product-item-name">
+                      Bolso Moto Tanque Givi Viaje Touring
+                    </p>
+                    <p class="product-item-price">$ 238.070</p>
+                  </div>
+
+                  <div class="delete-button">
+                    <img src="./Images/trash.svg" class="delete-icon" />
+                  </div>
+                </div>
+                <div class="product-item-buttons">
+                  <div class="product-item-button">
+                    <p class="simbol-button">-</p>
+                  </div>
+                  <div class="product-item-button">01</div>
+                  <div class="product-item-button">
+                    <p class="simbol-button">+</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item-cart">
+              <img
+                src="./Images//mobileProduct-cart2.png"
+                alt="foto producto"
+                class="product-item-img"
+              />
+              <div class="product-item-info-container">
+                <div class="product-item-info">
+                  <div class="product-item-text">
+                    <p class="product-item-name">
+                      Faro Led Óptica 7 Pulgadas Cafe Racer
+                    </p>
+                    <p class="product-item-price">$ 31.244</p>
+                  </div>
+
+                  <div class="delete-button">
+                    <img src="./Images/trash.svg" class="delete-icon" />
+                  </div>
+                </div>
+                <div class="product-item-buttons">
+                  <div class="product-item-button">
+                    <p class="simbol-button">-</p>
+                  </div>
+                  <div class="product-item-button">01</div>
+                  <div class="product-item-button">
+                    <p class="simbol-button">+</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item-cart">
+              <img
+                src="./Images//mobileProduct-cart.png"
+                alt="foto producto"
+                class="product-item-img"
+              />
+              <div class="product-item-info-container">
+                <div class="product-item-info">
+                  <div class="product-item-text">
+                    <p class="product-item-name">
+                      Casco Moto Axxis Hawk Evo Daytona C7
+                    </p>
+                    <p class="product-item-price">$ 82.454</p>
+                  </div>
+
+                  <div class="delete-button">
+                    <img src="./Images/trash.svg" class="delete-icon" />
+                  </div>
+                </div>
+                <div class="product-item-buttons">
+                  <div class="product-item-button">
+                    <p class="simbol-button">-</p>
+                  </div>
+                  <div class="product-item-button">01</div>
+                  <div class="product-item-button">
+                    <p class="simbol-button">+</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item-cart">
+              <img
+                src="./Images//mobileProduct-cart3.png"
+                alt="foto producto"
+                class="product-item-img"
+              />
+              <div class="product-item-info-container">
+                <div class="product-item-info">
+                  <div class="product-item-text">
+                    <p class="product-item-name">
+                      Pantalon Moto Stav Verano C/ Proteccion
+                    </p>
+                    <p class="product-item-price">$ 69.998</p>
+                  </div>
+
+                  <div class="delete-button">
+                    <img src="./Images/trash.svg" class="delete-icon" />
+                  </div>
+                </div>
+                <div class="product-item-buttons">
+                  <div class="product-item-button">
+                    <p class="simbol-button">-</p>
+                  </div>
+                  <div class="product-item-button">02</div>
+                  <div class="product-item-button">
+                    <p class="simbol-button">+</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="compras-container">
+            <img
+              src="./Images/arrowleft.svg"
+              alt="icono flecha izquierda"
+              class="compras-arrow"
+            />
+
+            <a href="/" class="compras-text">Continuar comprando</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cart-container-desktop">
+        <div class="items-container-desktop">
+          <div class="heroInfo-cart">
+            <h3 class="cart-title">Carrito</h3>
+            <p class="cart-text">5 Items</p>
+          </div>
+
+          <div class="label-container">
+            <p class="label-item">Producto</p>
+            <p class="label-item">Cantidad</p>
+            <p class="label-item">Precio</p>
+            <p class="label-item">Total</p>
+          </div>
+
+          <div class="articles-container">
+            <article class="product-item-cart">
+              <div class="product-info-container">
+                <img
+                  src="./Images//mobileProduct-cart4.png"
+                  alt="foto producto"
+                  class="product-item-img"
+                />
+                <div class="text-cartProduct">
+                  <p class="product-item-name">
+                    Bolso Moto Tanque Givi Viaje Touring
+                  </p>
+                  <p class="eliminar-text">Eliminar</p>
+                </div>
+              </div>
+
+              <div class="quantity-container">
+                <p class="change-quantity">-</p>
+                <p class="quantity">01</p>
+                <p class="change-quantity">+</p>
+              </div>
+
+              <div class="cartProduct-price-container">
+                <p class="cartProduct-price">$ 238.070</p>
+              </div>
+
+              <div class="cartProduct-price-container">
+                <p class="cartProduct-price">$ 238.070</p>
+              </div>
+            </article>
+
+            <article class="product-item-cart">
+              <div class="product-info-container">
+                <img
+                  src="./Images//mobileProduct-cart2.png"
+                  alt="foto producto"
+                  class="product-item-img"
+                />
+                <div class="text-cartProduct">
+                  <p class="product-item-name">
+                    Faro Led Óptica 7 Pulgadas Cafe Racer
+                  </p>
+                  <p class="eliminar-text">Eliminar</p>
+                </div>
+              </div>
+
+              <div class="quantity-container">
+                <p class="change-quantity">-</p>
+                <p class="quantity">01</p>
+                <p class="change-quantity">+</p>
+              </div>
+
+              <div class="cartProduct-price-container">
+                <p class="cartProduct-price">$ 31.244</p>
+              </div>
+
+              <div class="cartProduct-price-container">
+                <p class="cartProduct-price">$ 31.244</p>
+              </div>
+            </article>
+
+            <article class="product-item-cart">
+              <div class="product-info-container">
+                <img
+                  src="./Images//mobileProduct-cart.png"
+                  alt="foto producto"
+                  class="product-item-img"
+                />
+                <div class="text-cartProduct">
+                  <p class="product-item-name">
+                    Casco Moto Axxis Hawk Evo Daytona C7
+                  </p>
+                  <p class="eliminar-text">Eliminar</p>
+                </div>
+              </div>
+
+              <div class="quantity-container">
+                <p class="change-quantity">-</p>
+                <p class="quantity">01</p>
+                <p class="change-quantity">+</p>
+              </div>
+
+              <div class="cartProduct-price-container">
+                <p class="cartProduct-price">$ 82.454</p>
+              </div>
+
+              <div class="cartProduct-price-container">
+                <p class="cartProduct-price">$ 82.454</p>
+              </div>
+            </article>
+
+            <article class="product-item-cart">
+              <div class="product-info-container">
+                <img
+                  src="./Images//mobileProduct-cart3.png"
+                  alt="foto producto"
+                  class="product-item-img"
+                />
+                <div class="text-cartProduct">
+                  <p class="product-item-name">
+                    Pantalon Moto Stav Verano C/ Proteccion
+                  </p>
+                  <p class="eliminar-text">Eliminar</p>
+                </div>
+              </div>
+
+              <div class="quantity-container">
+                <p class="change-quantity">-</p>
+                <p class="quantity">02</p>
+                <p class="change-quantity">+</p>
+              </div>
+
+              <div class="cartProduct-price-container">
+                <p class="cartProduct-price">$ 69.998</p>
+              </div>
+
+              <div class="cartProduct-price-container">
+                <p class="cartProduct-price">$ 139.996</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="compras-container">
+            <img
+              src="./Images/arrowleft.svg"
+              alt="icono flecha izquierda"
+              class="compras-arrow"
+            />
+
+            <a href="/" class="compras-text">Continuar comprando</a>
+          </div>
+        </div>
+
+        <div class="resumen-container-desktop">
+          <p class="resumen-title">Resumen</p>
+
+          <div class="resumen-info">
+            <p class="resumen-cantidad">5 Productos</p>
+            <p class="resumen-price">$ 491.764</p>
+          </div>
+
+          <div class="cart-input">
+            <label class="cart-label">Envio</label>
+            <select class="cart-select">
+              <option value="envio-retirar" class="cart-option">
+                Retirar por sucursal ($ 0)
+              </option>
+              <option value="envio-sucursal" class="cart-option">
+                Envío a sucursal correo ($ 2000)
+              </option>
+              <option value="envio-domicilio" class="cart-option">
+                Envío a domicilio ($ 3500)
+              </option>
+            </select>
+          </div>
+
+          <div class="cart-input">
+            <label class="cart-label">Descuento</label>
+            <input class="cart-select" placeholder="Ingresa tu codigo" />
+          </div>
+
+          <button class="button-descuento">
+            <p class="text-descuento">Aplicar</p>
+          </button>
+
+          <div class="line"></div>
+
+          <div class="costoTotal-container">
+            <p class="costoTotal-text">Costo Total</p>
+            <p class="costoTotal-price">$ 491.764</p>
+          </div>
+
+          <button class="button-pagar" type="submit">
+            <p class="text-pagar">Pagar</p>
+          </button>
+        </div>
+      </section>
+      <section class="resumen-container">
+        <p class="resumen-title">Resumen</p>
+
+        <div class="resumen-info">
+          <p class="resumen-cantidad">5 Productos</p>
+          <p class="resumen-price">$ 491.764</p>
+        </div>
+
+        <div class="cart-input">
+          <label class="cart-label">Envio</label>
+          <select class="cart-select">
+            <option value="envio-retirar" class="cart-option">
+              Retirar por sucursal ($ 0)
+            </option>
+            <option value="envio-sucursal" class="cart-option">
+              Envío a sucursal correo ($ 2000)
+            </option>
+            <option value="envio-domicilio" class="cart-option">
+              Envío a domicilio ($ 3500)
+            </option>
+          </select>
+        </div>
+
+        <div class="cart-input">
+          <label class="cart-label">Descuento</label>
+          <input class="cart-select" placeholder="Ingresa tu codigo" />
+        </div>
+
+        <button class="button-descuento">
+          <p class="text-descuento">Aplicar</p>
+        </button>
+
+        <div class="line"></div>
+
+        <div class="costoTotal-container">
+          <p class="costoTotal-text">Costo Total</p>
+          <p class="costoTotal-price">$ 491.764</p>
+        </div>
+
+        <button class="button-pagar" type="submit">
+          <p class="text-pagar">Pagar</p>
+        </button>
+      </section>
+    </div>
+
+    <footer class="footer"><%- include('./partials/footer.ejs') %></footer>
+  </body>
+</html>

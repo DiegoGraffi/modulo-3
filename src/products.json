@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bolso Moto Tanque Givi Viaje Touring",
+    "detalle": "El bolso Givi GRT715 es un accesorio de alta calidad diseñado para motoristas y aventureros. Con una construcción duradera y resistente al agua, ofrece espacio de almacenamiento adicional para artículos esenciales durante tus viajes en moto. Su diseño funcional y versátil lo convierte en una opción ideal para aquellos que buscan comodidad y estilo mientras exploran la carretera.",
+    "precio": 238070,
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "nombre": "Faro Led Óptica 7 Pulgadas Cafe Racer",
+    "detalle": "La óptica LED estilo cafe racer es un componente de iluminación moderno y estilizado diseñado para motocicletas cafe racer. Con su tecnología LED de alta eficiencia, ofrece una potente iluminación en un diseño retro y elegante. Esta óptica no solo mejora la visibilidad y seguridad en la carretera, sino que también añade un toque distintivo de estilo vintage a la estética de la moto.",
+    "precio": 31244,
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "nombre": "Casco Axxis Hawk Evo Daytona C7",
+    "detalle": "El casco Axxis Hawk Evo Daytona C7 es una pieza de protección de vanguardia para motociclistas exigentes. Con un diseño aerodinámico y vistoso inspirado en el automovilismo, ofrece seguridad y comodidad de alto nivel. Equipado con características avanzadas, como visera solar interna y sistema de ventilación eficiente, este casco combina estilo y funcionalidad para brindar una experiencia de conducción excepcional en carreteras y circuitos.",
+    "precio": 82454,
+    "stock": 7
+  },
+  {
+    "id": 4,
+    "nombre": "Pantalon Moto Stav Verano C/ Proteccion",
+    "detalle": "Los Pantalones STAV SUMMER son un par de pantalones versátiles para satisfacer las necesidades diarias en temporada de verano. Su capa exterior construida de MaxDura 600D, es resistente a la abrasión, combinada con protectores de rodilla cadera CE-nivel 1 son tu armadura perfecta para salir a la calle o andar en ruta. El interior desmontable te mantendrán abrigado; mientras que en los días más cálidos, podes sacar el interior y disfrutar de los paneles de ventilación perfectamente ubicados en la parte superior para maximizar la circulación de aire, manteniéndote seco y cómodo. El cierre frontal de bloqueo deslizante y las inserciones elásticas en cintura, agregan comodidad para que disfrutes de estar en la moto todo el día.",
+    "precio": 69998,
+    "stock": 5
+  },
+  {
+    "id": 5,
+    "nombre": "Conjunto Alpinestars Fluid Tripple Motocross Mx 999m",
+    "detalle": "El conjunto Alpinestars Fluid Triple Motocross MX 999M es un conjunto de ropa especializada diseñado para pilotos de motocross. Confeccionado por la reconocida marca Alpinestars, este conjunto ofrece un equilibrio excepcional entre protección y comodidad. Con características como materiales duraderos, paneles de ventilación estratégicos y un diseño ergonómico, brinda a los pilotos la confianza y el rendimiento necesarios para enfrentar los desafíos de la pista de motocross.",
+    "precio": 114381,
+    "stock": 3
+  }
+]
