@@ -10,7 +10,7 @@
     <header>
       <nav class="navbar">
         <img src="/Images/Logo.svg" alt="logo" class="nav-logo" />
-        <img src="./Images/Burger Menu.svg" class="nav-menuMobile" />
+        <img src="/Images/Burger Menu.svg" class="nav-menuMobile" />
         <ul class="nav-items">
           <a href="/" class="nav-item">Inicio</a>
           <a href="/#nosotros" class="nav-item">Nosotros</a>
@@ -19,11 +19,12 @@
         </ul>
         <div class="nav-buttons">
           <% if (locals.user) { %>
-          <div>
+          <div class="user-info">
             <h2 class="navbar-user">
               <%= locals.user.name + ' ' + locals.user.lastName %>
             </h2>
-            <p class="">Cerrar Sesión</p>
+
+            <p class="navbar-closeSession">Cerrar Sesión</p>
           </div>
           <% } else { %>
           <a href="/login" class="nav-button">

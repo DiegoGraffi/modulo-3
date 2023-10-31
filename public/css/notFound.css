@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+
+:root {
+  --rojo: #d63c3c;
+  --azul: #3e4560;
+  --celeste: #3c7ad6;
+  --primary: #f3f3f3;
+  --secondary: #d9d9d9;
+}
+
+::selection {
+  background-color: var(--azul);
+  color: white;
+}
+
+body {
+  min-height: 100%;
+}
+
+.notFound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../Images/banner.png);
+  background-size: cover;
+}
+
+.notFound-info {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.notFound-title {
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: black;
+  z-index: 10;
+}
+
+.notFound-number {
+  font-size: 15rem;
+  font-weight: 800;
+  color: black;
+  z-index: 15;
+}
+
+.notFound-link {
+  z-index: 50;
+}
+
+.notFound-button {
+  background-color: var(--secondary);
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 200;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all ease-in-out 150ms;
+}
+
+.notFound-button:hover {
+  background-color: black;
+  color: var(--primary);
+  transform: scale(1.1);
+}

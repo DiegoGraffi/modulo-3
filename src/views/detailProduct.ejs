@@ -10,17 +10,17 @@
     <header><%- include('./partials/header.ejs') %></header>
 
     <section>
-      <div class="">
+      <div class="products-photos">
         <div class="productDetail-info">
-          <p class="product-detail-category">cascos</p>
-          <p class="product-detail-name">Casco LS2 Valiant FF399 Solid</p>
-          <p class="product-detail-price">$ 244.999</p>
+          <p class="product-detail-category"><%= product.categoria %></p>
+          <p class="product-detail-name"><%= product.nombre %></p>
+          <p class="product-detail-price">$ <%= product.precio %></p>
         </div>
         <div class="product-detail-photos">
           <div class="principal-photo">
             <div class="img-container">
               <img
-                src="./Images/product-principal-edit.png"
+                src="<%= product.fotoPrincipal %>"
                 alt="foto producto principal"
                 class="main-photo"
               />
@@ -28,27 +28,27 @@
           </div>
           <div class="product-photos">
             <img
-              src="./Images/product01.png"
+              src="<%= product.fotoPrincipal %>"
               alt="foto producto"
               class="product-mini-photo"
             />
             <img
-              src="./Images/product02.png"
+              src="<%= product.imagen2 %>"
               alt="foto producto"
               class="product-mini-photo"
             />
             <img
-              src="./Images/product03.png"
+              src="<%= product.imagen3 %>"
               alt="foto producto"
               class="product-mini-photo"
             />
             <img
-              src="./Images/product04.png"
+              src="<%= product.imagen4 %>"
               alt="foto producto"
               class="product-mini-photo"
             />
             <img
-              src="./Images/product05.png"
+              src="<%= product.imagen5 %>"
               alt="foto producto"
               class="product-mini-photo"
             />
@@ -58,9 +58,9 @@
 
       <div class="product-detail-productInfo">
         <div class="productDetail-infoDesktop">
-          <p class="product-detail-category">cascos</p>
-          <p class="product-detail-name">Casco LS2 Valiant FF399 Solid</p>
-          <p class="product-detail-price">$ 244.999</p>
+          <p class="product-detail-category"><%= product.categoria %></p>
+          <p class="product-detail-name"><%= product.nombre %></p>
+          <p class="product-detail-price">$ <%= product.precio %></p>
         </div>
         <div class="product-inputs">
           <div class="product-detail-variables">
@@ -112,7 +112,7 @@
 
             <button class="product-detail-button carrito">
               <img
-                src="./Images/shoppingcart.svg"
+                src="/Images/shoppingcart.svg"
                 class="product-detail-buttonIcon"
               />
               <p class="product-detail-buttonText">Agregar al carrito</p>
@@ -123,23 +123,7 @@
 
       <div class="product-detail-description">
         <h3 class="section-title">Descripcion</h3>
-        <p class="section-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque
-          autem dolor vero quibusdam aliquam consequatur iure. Nam eius nemo
-          ipsam doloribus corporis nostrum impedit praesentium, doloremque velit
-          possimus dicta nesciunt molestias dignissimos voluptatibus odit
-          quisquam ab accusamus sunt quia incidunt dolor laborum! Suscipit ipsam
-          officia fugiat magnam eos quae voluptates dolore ab explicabo ipsa
-          repudiandae eius nihil quis cumque cum dolorem, laudantium
-          perferendis. Esse dolorem explicabo, quaerat tenetur recusandae magni
-          exercitationem! Possimus
-        </p>
-
-        <p class="section-text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione,
-          error numquam, eligendi sapiente sed aliquid, sint ipsam iste quidem
-          esse eius dolor neque eos impedit repudiandae quis. Deleniti.
-        </p>
+        <p class="section-text"><%= product.detalle %></p>
       </div>
     </section>
 

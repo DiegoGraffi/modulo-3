@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+
+:root {
+  --rojo: #d63c3c;
+  --azul: #3e4560;
+  --celeste: #3c7ad6;
+  --primary: #f3f3f3;
+  --secondary: #d9d9d9;
+}
+
+::selection {
+  background-color: var(--azul);
+  color: white;
+}
+
+.body {
+  width: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--azul);
+}
+
+/* NAVBAR MOBILE */
+
+.navbar {
+  display: flex;
+  height: 60px;
+  width: auto;
+  padding: 20px 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 4rem;
+}
+
+.nav-items {
+  display: none;
+}
+
+.nav-buttons {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* NAVBAR TABLET */
+
+  .navbar {
+    height: 80px;
+    align-items: center;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    gap: 20px;
+  }
+
+  .nav-item {
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out 150ms;
+  }
+
+  .nav-item:hover {
+    border-bottom: 1px solid var(--azul);
+  }
+
+  .nav-buttons {
+    display: flex;
+    height: 45px;
+    gap: 10px;
+  }
+
+  .nav-button {
+    border: 1px solid var(--azul);
+    height: 100%;
+    background-color: white;
+    color: var(--azul);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 150ms;
+  }
+
+  .nav-button:hover {
+    background-color: var(--azul);
+    color: white;
+  }
+
+  .nav-menuMobile {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 100px;
+  }
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .navbar-user {
+    font-weight: 200;
+    font-size: 1rem;
+  }
+
+  .navbar-closeSession {
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 0.2rem;
+    color: var(--rojo);
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    transition: all ease-in-out 200ms;
+  }
+
+  .navbar-closeSession:hover {
+    border-bottom: 1px solid red;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* NAVBAR DESKTOP */
+
+  .navbar {
+    max-width: 1340px;
+    margin: 0 auto;
+  }
+
+  .nav-items {
+    gap: 60px;
+  }
+}

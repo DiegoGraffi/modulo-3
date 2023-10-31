@@ -1,37 +1,67 @@
 [
   {
     "id": 1,
-    "nombre": "Bolso Moto Tanque Givi Viaje Touring",
-    "detalle": "El bolso Givi GRT715 es un accesorio de alta calidad diseñado para motoristas y aventureros. Con una construcción duradera y resistente al agua, ofrece espacio de almacenamiento adicional para artículos esenciales durante tus viajes en moto. Su diseño funcional y versátil lo convierte en una opción ideal para aquellos que buscan comodidad y estilo mientras exploran la carretera.",
+    "nombre": "Bolso Tanque Magnetico Moto Givi Ea130 Extensible 26 Lts",
+    "detalle": "El bolso tanque magnético Givi EA130 es el compañero perfecto para tus aventuras en moto. Con una capacidad generosa de 26 litros, este bolso extensible te ofrece espacio más que suficiente para guardar todos tus objetos esenciales durante tus viajes en carretera.Su diseño magnético permite una instalación rápida y segura en el tanque de tu moto, sin necesidad de correas ni sujetadores adicionales. Además, su sistema de fijación garantiza una sujeción firme incluso en condiciones de conducción difíciles. Este bolso tanque cuenta con compartimentos organizativos internos para mantener tus pertenencias en orden y al alcance de la mano. También es extensible, lo que te permite adaptarlo a tus necesidades de almacenamiento según el tamaño de tu carga. Fabricado por Givi, una marca reconocida por su calidad y durabilidad en productos para motociclistas, el bolso EA130 está construido con materiales resistentes a la intemperie para proteger tus pertenencias de la lluvia y los elementos. Su estilo elegante y funcional lo convierte en un accesorio versátil que se adapta a cualquier tipo de moto y a cualquier estilo de conducción. Ya sea que estés planeando un viaje largo o simplemente necesites llevar tus objetos esenciales en tu próxima salida, el bolso tanque magnético Givi EA130 es la elección ideal para mantener tus pertenencias seguras y organizadas mientras disfrutas de la carretera.",
     "precio": 238070,
-    "stock": 5
+    "stock": 5,
+    "categoria": "accesorios",
+    "fotoPrincipal": "https://http2.mlstatic.com/D_NQ_NP_2X_911370-MLA53174953909_012023-F.webp",
+    "imagen2": "https://http2.mlstatic.com/D_NQ_NP_2X_775666-MLA53175072270_012023-F.webp",
+    "imagen3": "https://http2.mlstatic.com/D_NQ_NP_2X_839973-MLA53175061327_012023-F.webp",
+    "imagen4": "https://http2.mlstatic.com/D_NQ_NP_2X_815026-MLA53175120044_012023-F.webp",
+    "imagen5": "https://http2.mlstatic.com/D_NQ_NP_2X_832259-MLA53175043504_012023-F.webp"
   },
   {
     "id": 2,
     "nombre": "Faro Led Óptica 7 Pulgadas Cafe Racer",
     "detalle": "La óptica LED estilo cafe racer es un componente de iluminación moderno y estilizado diseñado para motocicletas cafe racer. Con su tecnología LED de alta eficiencia, ofrece una potente iluminación en un diseño retro y elegante. Esta óptica no solo mejora la visibilidad y seguridad en la carretera, sino que también añade un toque distintivo de estilo vintage a la estética de la moto.",
     "precio": 31244,
-    "stock": 10
+    "stock": 10,
+    "categoria": "repuestos",
+    "fotoPrincipal": "https://http2.mlstatic.com/D_NQ_NP_2X_658718-MLA44403060206_122020-F.webp",
+    "imagen2": "https://http2.mlstatic.com/D_NQ_NP_2X_729236-MLA44403059163_122020-F.webp",
+    "imagen3": "https://http2.mlstatic.com/D_NQ_NP_2X_875877-MLA44403019965_122020-F.webp",
+    "imagen4": "https://http2.mlstatic.com/D_NQ_NP_2X_884462-MLA44403019963_122020-F.webp",
+    "imagen5": "https://http2.mlstatic.com/D_NQ_NP_2X_713195-MLA44403019964_122020-F.webp"
   },
   {
     "id": 3,
     "nombre": "Casco Axxis Hawk Evo Daytona C7",
     "detalle": "El casco Axxis Hawk Evo Daytona C7 es una pieza de protección de vanguardia para motociclistas exigentes. Con un diseño aerodinámico y vistoso inspirado en el automovilismo, ofrece seguridad y comodidad de alto nivel. Equipado con características avanzadas, como visera solar interna y sistema de ventilación eficiente, este casco combina estilo y funcionalidad para brindar una experiencia de conducción excepcional en carreteras y circuitos.",
     "precio": 82454,
-    "stock": 7
+    "stock": 7,
+    "categoria": "cascos",
+    "fotoPrincipal": "https://http2.mlstatic.com/D_NQ_NP_2X_968303-MLA68818950746_032023-F.webp",
+    "imagen2": "https://http2.mlstatic.com/D_NQ_NP_2X_720031-MLA68818950748_032023-F.webpp",
+    "imagen3": "https://http2.mlstatic.com/D_NQ_NP_2X_752730-MLA68818950738_032023-F.webp",
+    "imagen4": "https://http2.mlstatic.com/D_NQ_NP_2X_748839-MLA68818950742_032023-F.webp",
+    "imagen5": "https://http2.mlstatic.com/D_NQ_NP_2X_865319-MLA69182371764_052023-F.webp"
   },
   {
     "id": 4,
     "nombre": "Pantalon Moto Stav Verano C/ Proteccion",
     "detalle": "Los Pantalones STAV SUMMER son un par de pantalones versátiles para satisfacer las necesidades diarias en temporada de verano. Su capa exterior construida de MaxDura 600D, es resistente a la abrasión, combinada con protectores de rodilla cadera CE-nivel 1 son tu armadura perfecta para salir a la calle o andar en ruta. El interior desmontable te mantendrán abrigado; mientras que en los días más cálidos, podes sacar el interior y disfrutar de los paneles de ventilación perfectamente ubicados en la parte superior para maximizar la circulación de aire, manteniéndote seco y cómodo. El cierre frontal de bloqueo deslizante y las inserciones elásticas en cintura, agregan comodidad para que disfrutes de estar en la moto todo el día.",
     "precio": 69998,
-    "stock": 5
+    "stock": 5,
+    "categoria": "indumentaria",
+    "fotoPrincipal": "https://http2.mlstatic.com/D_NQ_NP_2X_818549-MLA44700818812_012021-F.webp",
+    "imagen2": "https://http2.mlstatic.com/D_NQ_NP_2X_715061-MLA44700853271_012021-F.webp",
+    "imagen3": "https://http2.mlstatic.com/D_NQ_NP_2X_673542-MLA44700837437_012021-F.webp",
+    "imagen4": "https://http2.mlstatic.com/D_NQ_NP_2X_935046-MLA44700833512_012021-F.webp",
+    "imagen5": "https://http2.mlstatic.com/D_NQ_NP_2X_890383-MLA44700833522_012021-F.webp"
   },
   {
     "id": 5,
     "nombre": "Conjunto Alpinestars Fluid Tripple Motocross Mx 999m",
     "detalle": "El conjunto Alpinestars Fluid Triple Motocross MX 999M es un conjunto de ropa especializada diseñado para pilotos de motocross. Confeccionado por la reconocida marca Alpinestars, este conjunto ofrece un equilibrio excepcional entre protección y comodidad. Con características como materiales duraderos, paneles de ventilación estratégicos y un diseño ergonómico, brinda a los pilotos la confianza y el rendimiento necesarios para enfrentar los desafíos de la pista de motocross.",
     "precio": 114381,
-    "stock": 3
+    "stock": 3,
+    "categoria": "indumentaria",
+    "fotoPrincipal": "https://http2.mlstatic.com/D_NQ_NP_2X_767864-MLA51183974351_082022-F.webp",
+    "imagen2": "https://http2.mlstatic.com/D_NQ_NP_2X_942124-MLA51183980320_082022-F.webp",
+    "imagen3": "https://http2.mlstatic.com/D_NQ_NP_2X_815042-MLA51183980319_082022-F.webp",
+    "imagen4": "https://http2.mlstatic.com/D_NQ_NP_2X_724227-MLA51184095001_082022-F.webp",
+    "imagen5": "https://http2.mlstatic.com/D_NQ_NP_2X_762471-MLA51183889598_082022-F.webp"
   }
 ]
